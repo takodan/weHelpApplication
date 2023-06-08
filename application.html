@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- TODO: 實際內容, CSS整理, RWD回應式設計, 背景  -->
+<html>
+    <head>
+        <meta name="viweport" content="width=device-width, initial-scale=1.0">
+        <meta charset="utf-8">
+        <title>rwd layout</title>
+        <link rel="stylesheet" type="text/css" href="layout.css" />
+    </head>
+    <body>
+        <div class="headline">WeHelp申請書</div>
+
+        <div class = "page_select">
+            <button class = "btn" onclick= "showAnswer(1, this)">簡介</button>
+            <button class = "btn" onclick= "showAnswer(2, this)">努力</button>
+            <button class = "btn" onclick= "showAnswer(3, this)">安排</button>
+            <button class = "btn" onclick= "showAnswer(4, this)">公司</button>
+            <button class = "btn" onclick= "showAnswer(5, this)">情緒</button>
+            <button class = "btn" onclick= "showAnswer(6, this)">心得</button>
+        </div>
+        
+        <div class="answer_space">
+            <div id="question1">
+                <h3>兩百字內的個人簡介</h3>
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+            </div>
+            <div id="question2">
+                <h3>為了成為軟體工程師，曾做過什麼努力？若有具體專案作品請分享給我們。</h3>
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+            </div>
+            <div id="question3">
+                <h3>如果參與這個計畫，會怎麼安排學習時間？</h3>
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+            </div>
+            <div id="question4">
+                <h3>是否有想要加入的軟體公司？為什麼想加入該公司？</h3>
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+            </div>
+            <div id="question5">
+                <h3>請描述一件讓你產生明顯負面情緒的事情，你如何處理該情緒？</h3>
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+            </div>
+            <div id="question6">
+                <h3>關於這份申請網頁，請分享一個你開發時的技術心得。</h3>
+                邊寫邊發現新的東西，越找越多使用方法，就想refactoring
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+                這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字這裡會是答案會有很多字
+            </div>
+        </div>
+
+        <script>
+            let answerArr = [];
+            // 把所有回答加到array裡
+            answerArr.push(document.querySelector("#question1"));
+            answerArr.push(document.querySelector("#question2"));
+            answerArr.push(document.querySelector("#question3"));
+            answerArr.push(document.querySelector("#question4"));
+            answerArr.push(document.querySelector("#question5"));
+            answerArr.push(document.querySelector("#question6"));
+
+            // 用來更改btn樣式
+            let btnArr = document.querySelectorAll(".btn")
+
+
+            function showAnswer(showNum, btnEl) {
+                // 把全部btn回復原始樣式
+                btnArr.forEach(function (el) {
+                    el.style.backgroundColor = "#39c5bc";
+                    el.style.textDecoration = "none";
+                })
+
+                showId = showNum-1;
+                // 顯示要的答案，更改btn樣式，其他隱藏
+                for(let i =0; i < answerArr.length; i++){
+                    if(i === showId) {
+                        answerArr[i].style.display="block";
+                        btnEl.style.backgroundColor = "#298982";
+                        btnEl.style.textDecoration = "underline";
+                    }else {
+                        answerArr[i].style.display="none";
+                    }
+                }
+            }
+
+        </script>
+    </body>
+
+</html>

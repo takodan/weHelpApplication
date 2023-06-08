@@ -1,0 +1,111 @@
+.headline{
+    font-size: 30px; font-weight: bold;
+    margin-bottom: 15px; text-align: center;
+}
+.desktop_item{
+    text-align: center;
+    display: block;
+}
+.mobile_item{
+    text-align: center;
+    display: none;
+}
+.page_select{
+    display: flex;
+    justify-content: center;
+}
+
+.btn{
+    margin: 10px;
+    background-color: #39c5bc;
+    padding: 8px;
+    border-radius: 5px; /* 圓角 */
+    cursor: pointer; /* 滑鼠游標 */
+    /* text-decoration: underline; */
+}
+
+.answer_space{
+    display: flex;
+    justify-content: center;
+}
+
+#question1{
+    display:none;
+    padding: 10px;
+    border: 1px dashed blue;
+    color: #666666;
+    word-wrap:break-word;
+    text-align:center;
+    width:50%;
+}
+#question2{
+    display:none;
+    padding: 10px;
+    border: 1px dashed blue;
+    color: #666666;
+    word-wrap:break-word;
+    text-align:center;
+    width:50%;
+}
+#question3{
+    display:none;
+    padding: 10px;
+    border: 1px dashed blue;
+    color: #666666;
+    word-wrap:break-word;
+    text-align:center;
+    width:50%;
+}
+#question4{
+    display:none;
+    padding: 10px;
+    border: 1px dashed blue;
+    color: #666666;
+    word-wrap:break-word;
+    text-align:center;
+    width:50%;
+}
+#question5{
+    display:none;
+    padding: 10px;
+    border: 1px dashed blue;
+    color: #666666;
+    word-wrap:break-word;
+    text-align:center;
+    width:50%;
+}
+#question6{
+    display:none;
+    padding: 10px;
+    border: 1px dashed blue;
+    color: #666666;
+    word-wrap:break-word;
+    text-align:center;
+    width:50%;
+}
+
+@media(max-width:1250px){
+    /* 螢幕不大於1250px，套用此區 */
+    .item_list{
+        flex-wrap: wrap; /* 自動換行 */
+    }
+    .item{
+        width: 45%;  /* 改變大小讓一行只有兩個item */
+    }
+}
+
+@media(max-width:500px){
+    /* 螢幕不大於500px，套用此區 */
+    .desktop_item{
+        display: none;
+    }
+    .mobile_item{
+        display: block;
+    }
+    .headline{
+        font-size: 20px; margin-bottom: 10px; /* 更改文字大小 */
+    }
+    .item{
+        width: 90%; /* 改變大小讓一行只剩一個item */
+    }
+}
