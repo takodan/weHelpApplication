@@ -1,22 +1,26 @@
+body {
+    background-image: url("pexels-toni-cuenca-585752.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
 .headline{
-    font-size: 30px; font-weight: bold;
+    font-family: "Microsoft JhengHei", "PingFang";
+    font-size: 42px; font-weight: bold;
     margin-bottom: 15px; text-align: center;
+    color:whitesmoke;
 }
-.desktop_item{
-    text-align: center;
-    display: block;
-}
-.mobile_item{
-    text-align: center;
-    display: none;
-}
+
 .page_select{
     display: flex;
     justify-content: center;
 }
 
 .btn{
-    margin: 10px;
+    font-family: "Microsoft JhengHei", "PingFang";
+    font-size: 18px;
+    font-weight: bold;
+    margin: 12px;
     background-color: #39c5bc;
     padding: 8px;
     border-radius: 5px; /* 圓角 */
@@ -29,60 +33,23 @@
     justify-content: center;
 }
 
-#question1{
+.answer{
+    justify-content: center;
+    background-color:bisque;
     display:none;
-    padding: 10px;
-    border: 1px dashed blue;
-    color: #666666;
+    padding: 1em 2em 2em;
+    border: 2px dashed brown;
+    color: dimgrey;
     word-wrap:break-word;
     text-align:center;
     width:50%;
 }
-#question2{
-    display:none;
-    padding: 10px;
-    border: 1px dashed blue;
-    color: #666666;
-    word-wrap:break-word;
-    text-align:center;
-    width:50%;
+.answerContent{
+    text-align:left;
+    line-height: 1.5;
+    text-indent: 2em;
 }
-#question3{
-    display:none;
-    padding: 10px;
-    border: 1px dashed blue;
-    color: #666666;
-    word-wrap:break-word;
-    text-align:center;
-    width:50%;
-}
-#question4{
-    display:none;
-    padding: 10px;
-    border: 1px dashed blue;
-    color: #666666;
-    word-wrap:break-word;
-    text-align:center;
-    width:50%;
-}
-#question5{
-    display:none;
-    padding: 10px;
-    border: 1px dashed blue;
-    color: #666666;
-    word-wrap:break-word;
-    text-align:center;
-    width:50%;
-}
-#question6{
-    display:none;
-    padding: 10px;
-    border: 1px dashed blue;
-    color: #666666;
-    word-wrap:break-word;
-    text-align:center;
-    width:50%;
-}
+
 
 @media(max-width:1250px){
     /* 螢幕不大於1250px，套用此區 */
