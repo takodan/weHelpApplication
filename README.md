@@ -1,4 +1,2 @@
 # weHelpApplication
-We Help Application Web page readme.md testing
-
-TODO: RWD回應式設計
+Web page for Applying WeHelp bootcamp
