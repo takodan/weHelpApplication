@@ -28,6 +28,11 @@ body {
     /* text-decoration: underline; */
 }
 
+#answerSelect{
+    display:none;
+    margin: 12px;
+}
+
 .answer_space{
     display: flex;
     justify-content: center;
@@ -50,29 +55,22 @@ body {
     text-indent: 2em;
 }
 
-
-@media(max-width:1250px){
-    /* 螢幕不大於1250px，套用此區 */
-    .item_list{
-        flex-wrap: wrap; /* 自動換行 */
-    }
-    .item{
-        width: 45%;  /* 改變大小讓一行只有兩個item */
-    }
-}
-
 @media(max-width:500px){
     /* 螢幕不大於500px，套用此區 */
-    .desktop_item{
-        display: none;
-    }
+
     .mobile_item{
         display: block;
     }
     .headline{
-        font-size: 20px; margin-bottom: 10px; /* 更改文字大小 */
+        font-size: 28px; margin-bottom: 10px; /* 更改文字大小 */
     }
-    .item{
-        width: 90%; /* 改變大小讓一行只剩一個item */
+    #answerSelect{
+        display: block;
+    }
+    .btn{
+        display:none;
+    }
+    .answer{
+        width:90%;
     }
 }
