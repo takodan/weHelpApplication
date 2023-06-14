@@ -55,8 +55,8 @@ body {
     text-indent: 2em;
 }
 
-@media(max-width:500px){
-    /* 螢幕不大於500px，套用此區 */
+@media(max-width:600px){
+    /* 螢幕不大於600px，套用此區，我手機比例可能要用600而非500 */
 
     .mobile_item{
         display: block;
